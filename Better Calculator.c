@@ -6,7 +6,7 @@ int main() {
 char operator;
 double num1, num2, result;
 
-printf("Enter an Operator (=, -, *, /, ^, s): ");
+printf("Enter an Operator (+, -, *, /, ^, s): ");
 scanf(" %c", &operator);
 
 if(operator == 's') { 
