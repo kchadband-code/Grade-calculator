@@ -14,7 +14,7 @@ if(operator == 's') {
     printf("Enter a number: ");
     scanf("%lf", &num1);
     result = sqrt(num1);
-    printf("Square Root of %.2lf = %2lf\n", num1, result);
+    printf("Square Root of %.2lf = %.2lf\n", num1, result);
 
 } else if (operator == '^') {
     printf("Enter base and exponent: ");
